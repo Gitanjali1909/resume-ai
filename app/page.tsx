@@ -1,21 +1,21 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import HowItWorks from "@/components/HowItWorks";
-import Benefits from "@/components/Benefits";
-import Testimonials from "@/components/Testimonials"; 
-import Footer from "@/components/Footer";
+"use client"
+
+import Navbar from "@/components/Navbar"
+import Hero from "@/components/Hero"
+import Analyze from "@/components/Analyze"
+import Enhance from "@/components/Enhance"
+import Build from "@/components/Build"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
-    <main className="bg-white text-gray-900">
+    <main className="min-h-screen bg-background">
       <Navbar />
       <Hero />
-      <Features />
-      <HowItWorks />
-      <Benefits />
-      <Testimonials /> 
+      <Analyze />
+      <Enhance />
+      <Build />
       <Footer />
     </main>
-  );
+  )
 }
